@@ -116,7 +116,7 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - Waiters assigned to serve reservations.
 
 ### ER Diagram:
-*<img width="694" height="319" alt="image" src="https://github.com/user-attachments/assets/8efd0197-836b-4214-af13-bc89d2726a29" />
+<img width="1275" height="601" alt="image" src="https://github.com/user-attachments/assets/eb74e91b-a5d6-424b-b10b-33bd6ef368d1" />
 
 ### Entities and Attributes
 | Entity | Attributes (PK, FK) | Notes |
