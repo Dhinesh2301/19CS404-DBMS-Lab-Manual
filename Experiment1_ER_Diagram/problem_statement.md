@@ -50,14 +50,11 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 
 
 ### Assumptions
--Each member has a unique MemberID and can participate in multiple programs.
--Each trainer has a unique TrainerID and can handle several programs and sessions.
--A session is always conducted by one trainer and attended by one member.
--Payments are made only by registered members and linked to either membership or session fees.
--Programs are predefined (e.g., Yoga, Zumba, Weight Training) with fixed durations.
--Attendance is recorded per session for tracking member participation.
-
-
+•	A MemberProgram table resolves the many-to-many between Members & Programs. 
+•	A TrainerProgram table resolves the many-to-many between Trainers & Programs. 
+•	Each Session involves exactly one Member and one Trainer (personal training). 
+•	Attendance is recorded at the Session level. 
+•	Payments can be for Memberships or Sessions, tracked via PaymentType
 
 # Scenario B: City Library Event & Book Lending System
 
